@@ -1,0 +1,145 @@
+2025-08-04 18:03:15 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-04 18:03:15 INFO  [restartedMain] c.i.s.InsuranceSystemApplication - Starting InsuranceSystemApplication using Java 21.0.4 with PID 10432 (D:\insurance-system\target\classes started by abhit in D:\insurance-system)
+2025-08-04 18:03:15 INFO  [restartedMain] c.i.s.InsuranceSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 18:03:18 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-08-04 18:03:18 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-04 18:03:18 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-04 18:03:18 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-04 18:03:19 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-04 18:03:19 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10a8aeb6
+2025-08-04 18:03:19 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-04 18:03:19 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04 18:03:19 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-04 18:03:19 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-04 18:03:20 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04 18:03:20 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.29
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-04 18:03:21 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04 18:03:22 WARN  [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: fa4ce037-9dcc-4b47-b260-8e5f21ed4ee2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-04 18:03:23 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-08-04 18:03:23 INFO  [restartedMain] c.i.s.InsuranceSystemApplication - Started InsuranceSystemApplication in 7.823 seconds (process running for 8.975)
+2025-08-04 18:06:58 INFO  [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-04 18:06:58 INFO  [http-nio-8081-exec-1] c.i.system.controller.AuthController - Entered in login method in api/auth-controller
+2025-08-04 18:07:36 INFO  [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-08-04 18:07:36 INFO  [Thread-5] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-08-04 18:07:36 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-04 18:07:36 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-04 18:07:36 INFO  [restartedMain] c.i.s.InsuranceSystemApplication - Starting InsuranceSystemApplication using Java 21.0.4 with PID 10432 (D:\insurance-system\target\classes started by abhit in D:\insurance-system)
+2025-08-04 18:07:36 INFO  [restartedMain] c.i.s.InsuranceSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 18:07:37 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-08-04 18:07:37 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-04 18:07:37 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-04 18:07:37 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-04 18:07:37 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-08-04 18:07:37 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@664214ff
+2025-08-04 18:07:37 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-08-04 18:07:37 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04 18:07:37 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-04 18:07:37 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04 18:07:37 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.29
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-04 18:07:37 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04 18:07:38 WARN  [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d20ed270-e463-49df-b1af-66924833748b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-04 18:07:38 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-08-04 18:07:38 INFO  [restartedMain] c.i.s.InsuranceSystemApplication - Started InsuranceSystemApplication in 1.524 seconds (process running for 263.955)
+2025-08-04 18:07:40 INFO  [tomcat-shutdown] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+2025-08-04 18:07:40 INFO  [Thread-7] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+2025-08-04 18:07:40 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-08-04 18:07:40 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-08-04 18:07:40 INFO  [restartedMain] c.i.s.InsuranceSystemApplication - Starting InsuranceSystemApplication using Java 21.0.4 with PID 10432 (D:\insurance-system\target\classes started by abhit in D:\insurance-system)
+2025-08-04 18:07:40 INFO  [restartedMain] c.i.s.InsuranceSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 18:07:41 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-08-04 18:07:41 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-04 18:07:41 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-04 18:07:41 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-04 18:07:41 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-08-04 18:07:41 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b2ad4b
+2025-08-04 18:07:41 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-08-04 18:07:41 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04 18:07:41 INFO  [restartedMain] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-04 18:07:41 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04 18:07:41 INFO  [restartedMain] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.29
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-04 18:07:42 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04 18:07:43 WARN  [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d0bd095b-8407-446e-8320-64a2ecbc8dd0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-04 18:07:43 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-08-04 18:07:43 INFO  [restartedMain] c.i.s.InsuranceSystemApplication - Started InsuranceSystemApplication in 2.676 seconds (process running for 269.172)
+2025-08-04 18:07:47 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-08-04 18:07:47 INFO  [main] c.i.s.controller.AuthControllerTest - Starting AuthControllerTest using Java 21.0.4 with PID 15400 (started by abhit in D:\insurance-system)
+2025-08-04 18:07:47 INFO  [main] c.i.s.controller.AuthControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 18:07:51 INFO  [main] c.i.s.controller.AuthControllerTest - Started AuthControllerTest in 4.52 seconds (process running for 7.656)
+2025-08-04 18:07:52 INFO  [main] c.i.system.controller.AuthController - Entered in login method in api/auth-controller
+2025-08-04 18:07:52 INFO  [main] c.i.system.controller.AuthController - Entered in Register method in api/auth-controller
+2025-08-04 18:07:52 INFO  [main] c.i.s.controller.ClaimControllerTest - Starting ClaimControllerTest using Java 21.0.4 with PID 15400 (started by abhit in D:\insurance-system)
+2025-08-04 18:07:52 INFO  [main] c.i.s.controller.ClaimControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 18:07:53 INFO  [main] c.i.s.controller.ClaimControllerTest - Started ClaimControllerTest in 0.777 seconds (process running for 9.182)
+2025-08-04 18:07:53 INFO  [main] c.i.s.controller.ClaimController - Entered into getAll method in claim controller
+2025-08-04 18:07:53 INFO  [main] c.i.s.controller.ClaimController - Entered into getById method in claimController
+2025-08-04 18:07:53 INFO  [main] c.i.s.c.PolicyControllerTest - Starting PolicyControllerTest using Java 21.0.4 with PID 15400 (started by abhit in D:\insurance-system)
+2025-08-04 18:07:53 INFO  [main] c.i.s.c.PolicyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 18:07:54 INFO  [main] c.i.s.c.PolicyControllerTest - Started PolicyControllerTest in 0.733 seconds (process running for 10.378)
+2025-08-04 18:07:54 INFO  [main] c.i.s.c.PolicyHolderControllerTest - Starting PolicyHolderControllerTest using Java 21.0.4 with PID 15400 (started by abhit in D:\insurance-system)
+2025-08-04 18:07:54 INFO  [main] c.i.s.c.PolicyHolderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 18:07:55 INFO  [main] c.i.s.c.PolicyHolderControllerTest - Started PolicyHolderControllerTest in 0.486 seconds (process running for 10.966)
+2025-08-04 18:07:55 INFO  [main] c.i.s.InsuranceSystemApplicationTests - Starting InsuranceSystemApplicationTests using Java 21.0.4 with PID 15400 (started by abhit in D:\insurance-system)
+2025-08-04 18:07:55 INFO  [main] c.i.s.InsuranceSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 18:07:56 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-04 18:07:57 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2806fe58
+2025-08-04 18:07:57 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-04 18:07:57 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04 18:07:57 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-04 18:07:58 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-04 18:07:58 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04 18:07:58 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.29
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-04 18:07:59 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04 18:08:00 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d222cb34-bf12-4484-8734-3d3813e9bf59
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-08-04 18:08:01 INFO  [main] c.i.s.InsuranceSystemApplicationTests - Started InsuranceSystemApplicationTests in 5.952 seconds (process running for 16.993)
+2025-08-04 18:08:02 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-04 18:08:02 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-04 18:09:09 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2025-08-04 18:09:09 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
